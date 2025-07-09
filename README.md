@@ -18,7 +18,7 @@ A GraphQL API for managing and subscribing to layer metadata (e.g., for CAD or m
 
 1. **Clone the repository**
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/dhananjaygore64/layer-metadata-service-graphql.git
    cd layer-metadata-service
    ```
 2. **Install dependencies**
@@ -48,11 +48,3 @@ src/
   resolvers.ts    # GraphQL resolvers
   data.ts         # In-memory data
 ```
-
-## Notes
-
-- Uses `@as-integrations/express4` for Apollo Server 4 + Express integration.
-- Uses `graphql-ws` and `ws` for subscriptions.
-- TypeScript configuration is set for ES modules and top-level await.
-
----
